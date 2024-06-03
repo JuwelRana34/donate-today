@@ -303,6 +303,9 @@ footer{
 .footer{
     padding: 2rem 0;
 }
+.footer h1{
+    color: #ff5959;
+}
 .footer p{
     color: gray;
 }
@@ -312,6 +315,16 @@ footer{
 
 
 /* responosive */
+
+
+@media only screen and (min-width: 768px)  {
+    
+    .update-mail {
+        width: 80%;
+        
+    }
+}
+
 @media only screen and (max-width: 600px) {
    
   
@@ -367,7 +380,7 @@ header h1 {
     margin: 0rem 0rem;
 }
 .about-detils-1 h1 {
-    
+    text-align: center;
     font-size: 35px;
 }
 .about-1 {
