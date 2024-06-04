@@ -54,6 +54,7 @@ header button {
     color: aliceblue;
     font-size: large;
     margin: 1rem 0;
+    cursor: pointer;
 }
 
 /* donet  */
@@ -96,6 +97,8 @@ header button {
     margin: 2rem 0;
     width: 60%;
     padding: 1rem 0;
+    outline: none;
+    text-align: center;
     
 }
 ::placeholder{
@@ -112,6 +115,7 @@ header button {
     color: aliceblue;
     font-size: large;
     margin: 0.5rem 0;
+    cursor: pointer;
 }
 
 /* ***************************donare-plan *********************** */
@@ -145,7 +149,6 @@ width: 80%;
 }
 .donte-plan-1{
     background-color: #edf5f6;
-  
     padding: 1rem;
     border-radius: 5px;
 }
@@ -209,6 +212,7 @@ width: 80%;
     color: aliceblue;
     font-size: large;
     margin: 0.5rem 0;
+    cursor: pointer;
 }
 
 
